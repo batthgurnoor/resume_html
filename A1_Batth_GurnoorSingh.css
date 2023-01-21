@@ -1,0 +1,53 @@
+#self_photo{
+    max-height: 25vh;
+    max-width: 15vw;
+}
+  
+ 
+  .left_side_body p {
+    font-size: 40px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+
+  .left_side_body{
+    flex: 30%; 
+    background-color: #f1f1f1; 
+    padding: 20px;
+    text-align: center;
+ }
+  .right_side_body{
+    flex: 70%; 
+    background-color: white;
+    padding: 20px;
+    
+  }
+  .summary{
+    display: block;
+    background-color:red;
+    min-height: min-content;
+  }
+  .summary > *{
+    padding: 5%;
+  }
+  .work_experience{
+    display: block;
+    background-color: green;
+    min-height: min-content;
+  }
+  .education{
+    display: block;
+    background-color: blue;
+    min-height: min-content;
+  }
+
+
+

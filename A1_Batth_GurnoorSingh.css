@@ -1,6 +1,10 @@
-
-  * {
+/* 
+  Author: Gurnoor Singh Batth  
+  Date: 16 January 2023
+ */
+ * {
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif
   }
   body {
     background-color: #f1f1f1;
@@ -47,12 +51,8 @@
  }
   .right_side_body{
     
-    flex: 65%; 
-    background-color: #f1f1f1;
-    padding: 20px;
-    margin:8px;
-    box-shadow:  0px 0px 3px 4px rgb(184, 182, 182);
-    height: fit-content;
+    display: flex;
+    flex-direction: column;
     
   }
   .skill_sliders{
@@ -91,5 +91,43 @@
   } 
   .social>a{
     color: azure;
+  }
+  .headings>i{
+    color: #29b3aa;
+  }
+  .main_headings{
+    margin-left: 50px;
+  }
+  .sub_headings>i,.time_period>i{
+    color: #29b3aa;
+  }
+
+  .main_heading_style{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .time_period{
+    flex:30%;
+    text-align: right;
+    font-weight: lighter;
+  }
+  .current{
+    height: 100%;
+    background-color:#29b3aa;
+    padding: 4px;
+    color: azure;
+    border-radius:9px;
+    overflow: hidden;
+  }
+  .topics{
+    flex: auto;
+    width: 98%;
+    border-radius: 10px;
+    flex: 65%; 
+    background-color: white;
+    padding: 0px 20px 20px 20px;
+    margin:8px 20px 8px 8px;
+    box-shadow:  0px 0px 3px 4px rgb(184, 182, 182);;
   }
   

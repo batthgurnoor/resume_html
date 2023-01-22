@@ -2,6 +2,10 @@
   Author: Gurnoor Singh Batth  
   Date: 16 January 2023
  */
+
+
+
+/* General Body styling*/
  * {
     box-sizing: border-box;
     font-family: "Roboto", sans-serif
@@ -9,12 +13,37 @@
   body { 
     background-color: #f1f1f1;
   }
-  #self_photo{
+
+
+/* Styling of container containing the entire contents of the page, except the footer*/
+  .container{
+    display: flex;
+    flex-direction: row;
+    overflow: visible;
+    color:rgba(107, 106, 106, 0.945);
+  }
+
+
+/* Styling of container containing the left side of the resume*/
+ .left_side_body{
+    border-radius: 10px;
+    flex: 35%; 
+    background-color:white; 
+    margin: 8px;
+    box-shadow:  0px 0px 3px 4px rgb(213, 213, 213); 
+  }
+
+
+/* image styling*/
+  #self_photo{ 
     border-radius: 10px 10px 0px 0px;
     width: 100%;
     margin-bottom: 0;
   }
-  #img_text{
+
+
+/* styling of text under the image*/
+  #img_text{    
     text-align: center;
     font-size: large;
     font-weight: bold;
@@ -23,12 +52,8 @@
     background-color:#29a69e ;
     color: azure;
   }
-  .personal_details{
-    color:#29a69e  ;
-  }
-  .detail_container{
-    padding: 20px;
-  }
+
+/* styling of container with personal information*/
   .sub_detail{
     display: flex;
     flex-direction: row;  
@@ -36,33 +61,101 @@
   .sub_detail2{
     margin-left: 10px;
   }
-  .container{
-    display: flex;
-    flex-direction: row;
-    overflow: visible;
-    color:rgba(107, 106, 106, 0.945);
-  }
 
-  .left_side_body{
-    border-radius: 10px;
-    flex: 35%; 
-    background-color:white; 
-    margin: 8px;
-    box-shadow:  0px 0px 3px 4px rgb(213, 213, 213);
-    
- }
-  .right_side_body{
-    
-    display: flex;
-    flex-direction: column;
-    
+
+/* icon styling*/
+  .personal_details{
+    color:#29a69e  ;
   }
+  
+
+
+/* progress bar styling*/
+ .detail_container{
+    padding: 20px;
+  }
+  
   .skill_sliders{
     background-color: rgb(228, 228, 228);
     width: 100%;
     border-radius:9px;
   
   }
+  .percentage{
+    background-color: #29a69e;
+    text-align: center;
+    color: azure;
+    border-radius:9px;
+    overflow: hidden;
+  }
+
+
+
+
+/* Styling of container containing the right side of the resume*/
+ .right_side_body{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+/* Styling of divs in the right container*/
+  .topics{
+    flex: auto;
+    width: 99%;
+    border-radius: 10px;
+    flex: 65%; 
+    background-color: white;
+    padding: 0px 20px 20px 20px;
+    margin:8px 20px 8px 8px;
+    box-shadow:  0px 0px 3px 4px rgb(213, 213, 213);
+  }
+
+
+/* Styling of big headings in the right container*/
+  .headings>i{
+    color: #29a69e;
+  }
+  .headings{
+    text-align: center;
+  }
+
+
+/* Styling of sub headings in the right container*/ 
+  .main_headings{
+    margin-left: 50px;
+  }
+  .main_heading_style{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+
+/* Styling of calender/date in the right side container*/ 
+  .time_period{
+    flex:30%;
+    text-align: right;
+    font-weight: lighter;
+    color:#29a69e;
+  }
+  .current{
+    height: 100%;
+    background-color:#29a69e;
+    padding: 4px;
+    color: azure;
+    border-radius:9px;
+    overflow: hidden;
+  }
+
+
+/* Styling of icons of right side container*/
+  .sub_headings>i,.time_period>i{
+    color: #29a69e;
+  }
+
+
+/* Styling of footer*/ 
   .foot{
     box-shadow:  0px 0px 3px 4px rgb(213, 213, 213);
     border-radius: 10px;
@@ -78,13 +171,6 @@
     width: 99.25%;
     
   }
-  .percentage{
-    background-color: #29a69e;
-    text-align: center;
-    color: azure;
-    border-radius:9px;
-    overflow: hidden;
-  }
   .foot>h3{
     font-weight: 200;
     margin-bottom: 0.1px; 
@@ -93,48 +179,13 @@
   .foot>div{
     margin-bottom: 5px;
   } 
+
+
+/* Styling of icons in the footer*/
   .social>a{
     color: azure;
   }
-  .headings>i{
-    color: #29a69e;
-  }
-  .headings{
-    text-align: center;
-  }
-  .main_headings{
-    margin-left: 50px;
-  }
-  .sub_headings>i,.time_period>i{
-    color: #29a69e;
-  }
+  
+  
+  
 
-  .main_heading_style{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-  }
-  .time_period{
-    flex:30%;
-    text-align: right;
-    font-weight: lighter;
-    color:#29a69e;
-  }
-  .current{
-    height: 100%;
-    background-color:#29a69e;
-    padding: 4px;
-    color: azure;
-    border-radius:9px;
-    overflow: hidden;
-  }
-  .topics{
-    flex: auto;
-    width: 99%;
-    border-radius: 10px;
-    flex: 65%; 
-    background-color: white;
-    padding: 0px 20px 20px 20px;
-    margin:8px 20px 8px 8px;
-    box-shadow:  0px 0px 3px 4px rgb(213, 213, 213);
-  }

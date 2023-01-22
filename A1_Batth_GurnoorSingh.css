@@ -1,44 +1,85 @@
-#self_photo{
-    width: 100%;   
-}
 
   * {
     box-sizing: border-box;
   }
-
+  body {
+    background-color: #f1f1f1;
+  }
+  #self_photo{
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    margin-bottom: 0;
+  }
+  #img_text{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 0;
+    padding: 10px;
+    background-color:#29b3aa ;
+    color: azure;
+  }
+  .personal_details{
+    color:#29b3aa  ;
+  }
+  .detail_container{
+    padding: 20px;
+  }
+  .sub_detail{
+    display: flex;
+    flex-direction: row;  
+  }
+  .sub_detail2{
+    margin-left: 10px;
+  }
   .container{
     display: flex;
     flex-direction: row;
-    width: fit-content;
   }
 
   .left_side_body{
-    flex: 30%; 
-    background-color: #f1f1f1; 
-    padding: 20px;
-    margin: 5px;
-
+    border-radius: 10px;
+    flex: 35%; 
+    background-color:white; 
+    margin: 8px;
+    box-shadow:  0px 0px 3px 4px rgb(184, 182, 182);
     
  }
   .right_side_body{
-    flex: 70%; 
-   background-color: #f1f1f1;
+    
+    flex: 65%; 
+    background-color: #f1f1f1;
     padding: 20px;
-    margin:5px;
+    margin:8px;
+    box-shadow:  0px 0px 3px 4px rgb(184, 182, 182);
+    height: fit-content;
     
   }
-
+  .skill_sliders{
+    background-color: rgb(228, 228, 228);
+    width: 100%;
+    border-radius:9px;
+    overflow: hidden;
+  }
   .foot{
+    box-shadow:  0px 0px 3px 4px rgb(184, 182, 182);
     border-radius: 10px;
     background-color: #29b3aa;
     padding: 10px;
-    margin-top: 2.5px;
-    margin-bottom: 5px;
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    margin-left: 8px;
     display: flex; 
     flex-direction: column;
     align-items: center; 
+  }
+  .percentage{
+    background-color: #29b3aa;
+    text-align: center;
+    color: azure;
+    border-radius:9px;
+    overflow: hidden;
   }
   .foot>h3{
     font-weight: 200;

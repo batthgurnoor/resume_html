@@ -40,6 +40,7 @@
     border-radius: 10px 10px 0px 0px;
     width: 100%;
     margin-bottom: 0;
+    transition: 0.7s;
   }
   #self_photo:hover{
     transform: scale(1.03);
@@ -56,8 +57,11 @@
     padding: 10px;
     background-color:#29a69e ;
     color: azure;
+    transition: 0.7s;
+
   }
   #img_text:hover{
+    text-shadow: 0 0 1px azure;
     transform: scale(1.03);
     transition: 0.5s;
   }
@@ -76,7 +80,11 @@
   .personal_details{
     color:#29a69e  ;
   }
+  .personal_details>i{
+    transition: 0.5s;
+  }
   .personal_details>i:hover{
+    text-shadow: 0 0 1.5px #29a69e;
     transform: scale(1.3);
     transition: 0.3s;
   }
@@ -84,7 +92,11 @@
 
 
 /* progress bar styling*/
+.sliders>h2>i{
+  transition: 0.5s;
+}
 .sliders>h2>i:hover{
+  text-shadow: 0 0 1.5px #29a69e;
   transform: scale(1.3);
     transition: 0.3s;
 }
@@ -96,9 +108,11 @@
     background-color: rgb(228, 228, 228);
     width: 100%;
     border-radius:9px;
+    transition: 0.5s;
   
   }
   .skill_sliders:hover{
+    box-shadow: 0 0 1.5px #29a69e;
     transform: scale(1.08);
     transition: 0.5s;
   }
@@ -136,8 +150,10 @@
 /* Styling of big headings in the right container*/
   .headings>i{
     color: #29a69e;
+    transition: 0.3s;
   }
   .headings>i:hover{
+    text-shadow: 0 0 1.5px #29a69e;
     transform: scale(1.1);
     transition: 0.3s;
   }
@@ -173,19 +189,27 @@
     color: azure;
     border-radius:9px;
     overflow: hidden;
-    transition: 0.3s;
+    transition: 0.7s;
   }
   .current:hover{
-    box-shadow: 0 0 3px black;
-    margin-top: -10px;
+    transition: 0.3s;
+    box-shadow: 0 0 5px #29a69e;
+    margin-top: -15px;
   }
 
 
 /* Styling of icons of right side container*/
   .sub_headings>i,.time_period>i{
     color: #29a69e;
+    transition: 0.5s;
   }
   .sub_headings>i:hover{
+    text-shadow: 0 0 1.5px #29a69e;
+    transform: scale(1.25);
+    transition: 0.3s;
+  }
+  .time_period>i:hover{
+    text-shadow: 0 0 1.5px #29a69e;
     transform: scale(1.25);
     transition: 0.3s;
   }
@@ -220,7 +244,11 @@
   .social>a{
     color: azure;
   }
+  .social>a>i{
+    transition: 0.5s;
+  }
   .social>a>i:hover {
+    text-shadow: 0 0 1px azure;
     transform: scale(1.5);
     transition: 0.3s;
 }
